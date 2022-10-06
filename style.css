@@ -118,3 +118,21 @@ hr {
     box-shadow: 0px 2px 20px rgb(127, 127, 216);
     cursor: pointer;
 }
+
+@media screen and (max-width: 657px) {
+    #container {
+    grid-template-columns: 2fr; 
+    }
+}
+
+@media screen and (min-width: 658px) and (max-width: 989px) {
+    #container {
+    grid-template-columns: 2fr 2fr; 
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1320px) {
+    #container {
+    grid-template-columns: 2fr 2fr 2fr; 
+    }
+}
